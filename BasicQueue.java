@@ -11,7 +11,7 @@
 public interface BasicQueue extends Peekable {
 
   /**
-   * Retrieves and removes an element at the "end" of this queue.
+   * Inserts an element at the "end" of this queue.
    * <br><br>
    * <b>NOTE</b> It is not exactly important where in the underlying ordered collection
    * data structure this operation occurs at, as long as it is at the logical opposite end
